@@ -741,6 +741,20 @@
   dependencies:
     "@fortawesome/fontawesome-common-types" "^0.2.7"
 
+"@fortawesome/free-regular-svg-icons@5.4.2":
+  version "5.4.2"
+  resolved "https://registry.yarnpkg.com/@fortawesome/free-regular-svg-icons/-/free-regular-svg-icons-5.4.2.tgz#88a0d8e5a270aee37eb9f54707ca6d769a0c7a75"
+  integrity sha512-rjYHr3yTMp6Ow4xNdNkGt92siQ3ytSQcE5wYtVC745iWeqYbPNo7vkSEyrH771Z/g8clux5z+Wf9UxXBQSzhqQ==
+  dependencies:
+    "@fortawesome/fontawesome-common-types" "^0.2.7"
+
+"@fortawesome/free-solid-svg-icons@5.4.2":
+  version "5.4.2"
+  resolved "https://registry.yarnpkg.com/@fortawesome/free-solid-svg-icons/-/free-solid-svg-icons-5.4.2.tgz#185fdab8806d5726846719dd7f8a2756c7b4f7fe"
+  integrity sha512-emie9CsLZPLVPH1adR3MNGNlm0GSVvEuUbZkQr0uXSp+Q9SZL0/OF6ava3DCKkwDbjn3jDKPchOraj0Vkuat6Q==
+  dependencies:
+    "@fortawesome/fontawesome-common-types" "^0.2.7"
+
 "@glimmer/compiler@^0.27.0":
   version "0.27.0"
   resolved "https://registry.yarnpkg.com/@glimmer/compiler/-/compiler-0.27.0.tgz#b24042752a53171d5cb3d9a95a29dfc0f314ed2c"
@@ -4395,6 +4409,15 @@ ember-a11y-landmarks@^1.0.1:
     ember-cli-htmlbars "^1.1.1"
     ember-cli-htmlbars-inline-precompile "^0.4.0"
 
+ember-angle-bracket-invocation-polyfill@^1.2.3:
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/ember-angle-bracket-invocation-polyfill/-/ember-angle-bracket-invocation-polyfill-1.2.3.tgz#4381f8bb12aa95af83b982ca543de9baed7ee248"
+  integrity sha512-imiDfGkPet7zVw6JIon2pG00OW76mi4MKnfYFQY8rany7Is7Bac8ZRspevfue0AAM/5VsQ0MbgU0vICMa5ifpw==
+  dependencies:
+    ember-cli-babel "^6.17.0"
+    ember-cli-version-checker "^2.1.2"
+    ember-compatibility-helpers "^1.0.2"
+
 ember-app-scheduler@^1.0.1:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/ember-app-scheduler/-/ember-app-scheduler-1.0.4.tgz#2d75cc645c18a0f5b0febaf8de37e6ca4059f4ed"
@@ -4551,7 +4574,7 @@ ember-cli-babel@^6.0.0, ember-cli-babel@^6.0.0-beta.4, ember-cli-babel@^6.0.0-be
     ember-cli-version-checker "^2.1.2"
     semver "^5.5.0"
 
-ember-cli-babel@^6.16.0:
+ember-cli-babel@^6.16.0, ember-cli-babel@^6.17.0:
   version "6.17.2"
   resolved "https://registry.yarnpkg.com/ember-cli-babel/-/ember-cli-babel-6.17.2.tgz#f0d53d2fb95e70c15d8db84760d045f88f458f69"
   integrity sha512-9KcCvF1PcelEFTSiJ/Ld20tfuW9acMkwHC/xINLsmwqJVDbm3oEqWtiFDZ5ebaC278O5I0GqNJWJLYNoWMNZ8g==
@@ -5157,7 +5180,7 @@ ember-compatibility-helpers@^1.0.0, ember-compatibility-helpers@^1.0.0-beta.2:
     ember-cli-version-checker "^2.1.1"
     semver "^5.4.1"
 
-ember-compatibility-helpers@^1.1.1:
+ember-compatibility-helpers@^1.0.2, ember-compatibility-helpers@^1.1.1:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/ember-compatibility-helpers/-/ember-compatibility-helpers-1.1.2.tgz#ae0ee4a7a2858b5ffdf79b428c23aee85c47d93d"
   integrity sha512-yN163MzERpotO8M0b+q+kXs4i3Nx6aIriiZHWv+yXQzr2TAtYlVwg9V7/3+jcurOa3oDEYDpN7y9UZ6q3mnoTg==
